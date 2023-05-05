@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+
+
+    max-width: 500px;
+    width: 100%;
+
+    gap: 15px;
+}
+
+form .ipText{
+    height: 30px;
+    padding: 5px;
+}
+
+
+body .btnVoltar{
+    position: fixed;
+    right: 30px;
+    top: 30px;
+}
