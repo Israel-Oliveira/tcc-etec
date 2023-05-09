@@ -2,9 +2,9 @@
 
 session_start();
 
-function setProdtudoCarrinho($idProduto, $nomeProduto, $precoProduto, $quantidadeProduto){
+$_SESSION['carrinho'];
 
-  $_SESSION['carrinho'] = array();
+function setProdtudoCarrinho($idProduto, $nomeProduto, $precoProduto, $quantidadeProduto){
 
   $produto = [
     "id"=>$idProduto,
